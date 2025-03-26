@@ -2,3 +2,4 @@
 - 👀 I’m interested in coding python
 - 🌱 I’m currently learning python
 - 🌱 I’m currently learning python
+- 🌱 I’m currently learning python
