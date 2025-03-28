@@ -1,9 +1,12 @@
 from ursina import *
+from ursina.prefabs.first_person_controller import FirstPersonController
+
+
 
 app = Ursina()
 
 # Spieler (Box)
-player = Entity(model='cube', color=color.blue, scale=(1, 2, 1), position=(0, 1, 0))
+player = Entity(model='cube', color=color.blue, scale=(1, 2, 1), position=(0, 1, 0)), FirstPersonController
 player_speed = 5
 jump_height = 5
 
