@@ -1,4 +1,4 @@
-  from ursina import *
+from ursina import *
 
 app = Ursina()
 
@@ -10,7 +10,7 @@ jump_height = 5
 # Schwerkraft
 gravity = 0.5
 velocity = 0
-tofife = true
+
 
 # Kameraeinstellungen
 camera.position = (10, 10, 10)
